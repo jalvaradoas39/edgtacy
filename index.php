@@ -6,7 +6,7 @@
 	include('./includes/header.html');
 
 	// require(MYSQL);
-	// include('./views/home.html');
+	include('./views/home.html');
 
 
 	include('./includes/footer.html');
