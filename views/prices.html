@@ -1,0 +1,132 @@
+
+
+
+        
+        <div class="g-bg-color--sky-light">
+            <div class="container g-padding-y-80--xs g-padding-y-125--xsm">
+                <div class="g-text-center--xs g-margin-b-80--xs">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Prices</p>
+                    <h1 class="g-font-size-32--xs g-font-size-36--md">Our Prices</h1>
+                </div>
+
+                <div class="row g-row-col--5">
+
+                    <!-- Plan -->
+                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Basic</h3>
+                                <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Blemish Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Stray Hair Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Skin Smoothening</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Wrinkle Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Scar, Pimple, Acne Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Whitening of Teeth &amp; Eyes</li>                            
+                                </ul>
+                                <div class="g-margin-b-40--xs">
+                                    <span class="s-plan-v1__price-tag">$5.00</span>
+                                </div>
+
+								<form action="./cart.php" method="post">
+									<input type="hidden" name="action" value="add" />
+
+									<input type="hidden" name="sku" value="' . $row['sku'] . '" /><br/><br/>
+
+			                        <input type="submit" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" value="Add to Cart" />
+								</form>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Plan -->
+
+
+
+                    <!-- Plan -->
+                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Pro</h3>
+                                <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Blemish Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Stray Hair Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Skin Smoothening</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Wrinkle Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Scar, Pimple, Acne Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Whitening of Teeth &amp; Eyes</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Sharpen Image Quality</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Background Replacement</li>
+                                </ul>
+                                <div class="g-margin-b-40--xs">
+                                    <span class="s-plan-v1__price-tag">$10.00</span>
+                                </div>
+
+								<form action="./cart.php" method="post">
+									<input type="hidden" name="action" value="add" />
+
+									<input type="hidden" name="sku" value="' . $row['sku'] . '" /><br/><br/>
+
+			                        <input type="submit" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" value="Add to Cart" />
+								</form>
+								                  
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Plan -->
+
+
+
+                    <!-- Plan -->
+                    <div class="col-md-4 g-margin-b-10--xs g-margin-b-0--lg">
+                        <div class="wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="s-plan-v1 g-text-center--xs g-bg-color--white g-padding-y-100--xs">
+                                <i class="g-display-block--xs g-font-size-40--xs g-color--primary g-margin-b-30--xs ti-archive"></i>
+                                <h3 class="g-font-size-18--xs g-color--primary g-margin-b-30--xs">Advanced</h3>
+                                <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-40--xs">
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Blemish Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Stray Hair Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Skin Smoothening</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Wrinkle Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Scar, Pimple, Acne Removal</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Whitening of Teeth &amp; Eyes</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Sharpen Image Quality</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Background Replacement</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Weight Reduction</li>
+                                    <li><i class="g-font-size-13--xs g-color--primary g-margin-r-10--xs ti-check"></i> Additional Modifications</li>         
+                                    </ul>
+                                <div class="g-margin-b-40--xs">
+                                    <span class="s-plan-v1__price-tag">$15.00</span>
+                                </div>
+
+								<form action="./cart.php" method="post">
+									<input type="hidden" name="action" value="add" />
+
+									<input type="hidden" name="sku" value="' . $row['sku'] . '" /><br/><br/>
+
+			                        <input type="submit" class="text-uppercase s-btn s-btn--sm s-btn--primary-bg g-radius--50 g-padding-x-50--xs" value="Add to Cart" />
+								</form>
+								                  
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Plan -->
+
+
+
+            </div>
+        </div>
+        <br/>
+
+
+
+
+
+
+
+
+
+
+
